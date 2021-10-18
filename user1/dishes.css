@@ -1,0 +1,21 @@
+
+
+.mycard{
+    position: relative;
+    margin:2em 0;
+    overflow: hidden;
+  }
+  .mycard p{
+      position: absolute;
+      top:0;
+      left: 0;
+      margin: 2em;
+      color:white;
+  }
+  .mycard img{
+      transition: transform 5s;
+  }
+  
+  .mycard:hover img {
+      transform: scale(1.5);
+  }
